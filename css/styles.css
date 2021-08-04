@@ -1,0 +1,138 @@
+/* GLOBAL */
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  width: 1440px;
+}
+
+h2 {
+  color: #F2F2F2;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2rem;
+  margin: 0;
+  padding: 40px 73px 30px 80px;
+}
+
+p {
+  color: #FFFFFF75;
+  margin: 0;
+  padding: 0 73px;
+}
+
+img {
+  padding: 60px 80px 0 80px;
+}
+
+/* CLASSES */
+.container-first {
+  background-color: #E38826;
+  float: left;
+  text-align: left;
+  width: 33.33%;
+  height: 100%;
+}
+
+.container-second {
+  background-color: #006970;
+  float: left;
+  text-align: left;
+  height: 100%;
+  width: 33.33%;
+}
+
+.container-three {
+  background-color: #004241;
+  float: left;
+  text-align: left;
+  height: 100%;
+  width: 33.33%;
+}
+
+.attribution {
+  background-color: #F2F2F2;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3D51A2;
+}
+
+.button-desc-one {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  color: #E38826;
+  padding: 20px 40px;
+  background-color: #F2F2F2;
+  border: solid #F2F2F2 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+.button-desc-two {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  color: #006970;
+  padding: 20px 40px;
+  background-color: #F2F2F2;
+  border: solid #F2F2F2 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+.button-desc-three {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  color: #004241;
+  padding: 20px 40px;
+  background-color: #F2F2F2;
+  border: solid #F2F2F2 2px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: 200px;
+}
+
+.buttons:hover {
+  background: #FFFFFF00;
+  border: solid #FFFFFF 2px;
+  color: inherit;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
+  text-decoration: none;
+}
+
+.button-desc-three:hover {
+  color: #f2f2f2;
+}
+
+.button-desc-one:hover {
+  color: #f2f2f2;
+}
+
+.button-desc-two:hover {
+  color: #f2f2f2;
+}
+
+@media only screen and (max-width: 300px) {
+  .container-first, .container-second, .container-three {
+    width: 100%;
+  }
+}
